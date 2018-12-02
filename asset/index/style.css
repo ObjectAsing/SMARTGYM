@@ -1,0 +1,24 @@
+body{margin:0 auto; display:table; font-family: 'calibri'; font-size: 14px; width:100%;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+header{background: #f1f1f1; width:100%; padding:40px 40px; margin:10px auto}
+header li {margin-left:10px; float:left;}
+header li a{font-size: 16px; color:#777; padding:10px 10px;}
+header li a:hover{font-size: 16px; color:#f1f1f1; background: #777; padding:10px 10px; transition: 0.6s}
+footer{background: #f1f1f1; width:100%; padding:10px 10px; margin:10px auto}
+
+.content {width:80%; margin:0 auto; display:table;  background: #f1f1f1; padding:10px 10px	;}
+
+.group{width:50%; display:table; margin:10px auto;}
+.group .li{width:100%; display:table; margin:10px auto;}
+.group .li li{    width: 30%;
+    margin-left: 10px;
+    float: left;}
+.group label{width:100%; display:table; margin:10px auto;}
+.group input{width:100%; padding:10px 10px;}
+.group input[type="submit"]{width:40%; display:table; margin:10px auto; background: #f1f1f1;}
+/*.group .li li input{padding:10px 10px;}*/
+.group textarea{width:100%; padding:10px 10px;}
+
+

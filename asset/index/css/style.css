@@ -1,0 +1,163 @@
+
+header{position: fixed; z-index: 2; background: #424242; padding: 10px 0; transition:all 0.3s ease-in-out;}
+header .logo .img{width: 120px;}
+header .logo img:hover{opacity: 0.8;}
+header .nav ul{float: left; list-style: none;}
+header .nav ul li{float: left;}
+header .nav ul li a{float: left; padding: 5px 10px; color: #f9f9f9;}
+header .nav ul li a:hover{color: #ffcc66; border-bottom: 1px solid #ffcc66;}
+header .nav ul li a.active{color: #ffcc66; border-bottom: 1px solid #ffcc66;}
+
+.f-nav li{list-style: none}
+.f-nav li a{color:#fff;}
+.f-nav li a:hover{color:#fc6;}
+
+.head {background: url(../img/bg2.jpg) top center fixed no-repeat; background-size: 100% 100vh; width: 100%; height: 100vh; overflow: hidden;}
+.page.home .studio-name{top: 30%;}
+.page.home .studio-name .centered{width: 50%;}
+.page.home .studio-name .head-title{text-align: center; line-height: 2.2em;}
+.page.home .studio-name .head-title h1{color: #f9f9f9; font-weight: 700; font-size: 50px;}
+.page.home .studio-name .head-title h2{color: #f9f9f9; font-weight: 300; font-size: 22px;}
+.page.home .studio-name .border .centered{width: 60%; border-bottom: 1px solid #fff;}
+.page.home .studio-name .desc .description .centered{width: 50%; text-align: center; font-size: 13px; margin-top: 5px;}
+.page.home .studio-name .desc .description p{margin: 0; color: #fff;}
+.page.home .studio-name .desc .btn{margin-top: 10px;}
+.page.home .studio-name .desc .btn .center{margin: 0 auto; display: table;}
+.page.home .studio-name .desc .btn a {float: left; margin-right: 5px; padding: 5px 25px; color: #fff; border: 1px solid #fff; font-size: 13px;}
+.page.home .studio-name .desc .btn a:last-child{margin: 0;}
+.page.home .studio-name .desc .btn a:hover{background: rgba(255,255,255,0.3);}
+.page.home .studio-name .desc .btn a.active{background: rgba(255,255,255,0.3);}
+.page.home .dropdown-btn{bottom: 40px; left: 0; right: 0;}
+.page.home .dropdown-btn .centered{width: 30px; -webkit-animation-name: spaceboots; -webkit-animation-duration: 0.8s; -webkit-transform-origin: 50% 50%; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+
+.page.home{padding: 0;}
+.page.home .main .studio{margin: 30px 0;}
+.page.home .main .studio:last-child{margin-top: 20px;}
+.page.home .main .studio .round-img .img{width: 100%;}
+.page.home .main .studio .round-img .img a{float: left; width: 100%; border-radius: 100%;}
+.page.home .main .studio .round-img .img a:hover{opacity: 0.8}
+.page.home .main .studio .round-img .img img{width: 350px; height: 350px; border-radius: 50%;}
+.page.home .main .studio .desc{width: 60%; margin-top: 30px; color: #333;}
+.page.home .main .studio .desc .title{font-size: 15px;}
+.page.home .main .studio .desc .title a{color: #333;}
+.page.home .main .studio .desc .title a:hover{color: #ffcc66;}
+.page.home .main .studio .desc .studio-desc{padding-bottom: 5px;}
+.page.home .main .studio .desc .studio-desc p{font-size: 14px;}
+.page.home .main .studio .desc .studio-desc p:last-child{margin-bottom: 0;}
+.page.home .main .studio .desc .studio-btn{width: 43%; margin-top: 5px;}
+.page.home .main .studio .desc .studio-btn .btn-float{width: 48%;}
+.page.home .main .studio .desc .studio-btn .btn-float a{float: left; width: 100%; padding: 7px 20px; font-size: 12px; text-align: center; border: 1px solid #ddd;}
+.page.home .main .studio .desc .studio-btn .btn-float a:hover{background:#ffcc66; color: #fff;}
+.page.home .main .studio .desc .studio-btn .btn-float a.active{background:#ffcc66; color: #fff;}
+
+.page.login .login-form-box .centered{width: 40%; margin-top: 4%;}
+.page .form-page-box{border: 1px solid #333;}
+.page .form-page-box .head-box{background: #333;  padding: 10px 0;}
+.page .form-page-box .head-box .title h1{font-size: 25px; color: #fff;}
+.page .form-page-box .head-box .title h2{font-size: 20px; color: #fff;}
+.page .form-page-box .head-box .desc{color: #fff; font-size: 12px;}
+.page .form-page-box .head-box .desc a:hover{color: #ffcc66; text-decoration: underline;}
+.page .form-page-box .login-form{padding: 10px}
+.page .form-page-box .login-form .desc a{color: #FFAA00;}
+.page .form-page-box .login-form .desc a:hover{text-decoration: underline;}
+
+.page.register .register-form-box .centered{width: 50%; margin-top: 4%;}
+.page.register .register-form-box .form-page-box .head-box .desc{margin-top: 5px;}
+.page.register .register-form-box .form-page-box{margin-bottom: 30px;}
+
+.page.booking-studio .studio-form-box .centered{width: 60%; }
+.page .form-page-box .studio-form{padding: 10px 20px;}
+
+.page.home .title-page{margin-bottom: 20px;}
+.page .title-page{margin-bottom: 30px;}
+.page .title-page h1::after{content: ''; position: absolute; height: 3px; background: #ffcc66; left: 0; bottom: -8px; width: 40px}
+.page .title-page h1{position: relative; font-size: 25px; color: #333;}
+.page .title-page h2{position: relative; float: left; font-size: 24px; color: #333; transition:all 0.3s ease 0s;}
+.page .title-page h2:hover{color: #ffcc66;}
+.page .title-page h2:after{content: ''; position: absolute; height: 3px; background: #ffcc66; left: 0; width: 40px; bottom: -8px; }
+.page.booking .tab-content{margin-top: 20px;}
+.page.booking .studio-prof{margin-top: 10px;}
+.page.booking .studio-prof .title-studio{margin-bottom: 10px;}
+.page.booking .studio-prof .title-studio h2{font-size: 22px; color: #F9A600;}
+.page.booking .studio-prof .studio-photo{margin-right: 20px;}
+.page.booking .studio-prof .studio-photo .img{width: 400px;}
+.page.booking .studio-prof .detail-studio{width: 50%;}
+.page.booking .studio-prof .detail-studio .studio-desc{margin: 10px 0; font-size: 12px;}
+.page.booking .studio-prof .detail-studio .booking-btn span{float: left; width: 100%; margin-bottom: 5px;}
+.page.booking .studio-prof .detail-studio .booking-btn a{background: #fff; color: #333; border: 1px solid #ddd; padding: 7px 50px;}
+.page.booking .studio-prof .detail-studio .booking-btn a:hover{background: #ffcc66; color: #fff;}
+
+.page.profile{background: #f5f5f5;}
+.page.profile .left-photo{width: 37%;}
+.page.profile .left-photo .photo .img{width: 400px;}
+.page.profile .right-detail{width: 60%;}
+.page.profile .profile-band .band-name{width: 100%; padding-bottom: 5px; margin-bottom: 10px; border-bottom: 1px solid #ddd;}
+.page.profile .profile-band .band-name h2{color: #FFAA00; font-size: 20px;}
+.page.profile .right-detail .table-detail table{color: #333;}
+.page.profile .right-detail .table-detail .desc .title{margin-top: 10px;}
+.page.profile .right-detail .table-detail .desc .title h4{color: #222;}
+.page.profile .right-detail .table-detail .desc .bio{margin-top: 5px; color: #333; font-size: 12px;}
+.page.profile .right-detail .table-detail .desc .bio p{margin: 5px 0;}
+.page.profile .right-detail .btn-action{margin-top: 5px;}
+.page.profile .right-detail .btn-action li{float: left; list-style: none;}
+.page.profile .right-detail .btn-action li a{float: left; padding: 5px 20px; font-size: 12px; border: 1px solid #ddd; margin-right: 10px;}
+.page.profile .right-detail .btn-action li a:hover{background: #FFAA00; color: #fff;}
+
+.page.about .about-sec p{margin-bottom: 20px;}
+
+.page.contact .contact-info li{float: left; width: 100%; font-size: 14px; list-style: none; margin-bottom:5px;}
+.page.contact .contact-info li .ic{margin-right: 10px;}
+.page.contact .contact-info li .txt a{padding-bottom: 3px;}
+.page.contact .contact-info li .txt a:hover{border-bottom: 1px dotted #ffcc66; color: #ffcc66;}
+.page.contact .maps .title{margin: 20px 0 10px 0; font-size: 20px; color: #333;}
+.page.contact .maps .title .ic{margin-right: 10px; font-size: 18px;}
+.page.contact .maps .title h4{color: #333; font-size: 20px;}
+
+.page.admin .tables{margin-top: 20px;}
+.page .tbl-img{width: 50px !important;}
+.page.admin .confirm a{display: block; font-size: 12px; text-align: center; padding:10px; border:1px solid #ddd;}
+.page.admin .confirm a:hover{color: #fff; background: #333;}
+
+.page.payment .payment-detail{padding: 10px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+.page.payment .payment-detail .title{margin-bottom: 10px;}
+.page.payment .payment-detail .title h2{font-size: 23px; color: #333}
+.page.payment .cancle{margin-top: 10px;}
+.page.payment .cancle .txt{font-size: 12px;}
+.page.payment .cancle .cancle-btn{margin-top: 10px;}
+.page.payment .cancle .cancle-btn a{padding: 10px; background: #FF3636; color: #fff; font-size: 12px;}
+
+.page.report .search-box{margin-bottom: 40px;}
+.page.report .search-box .form{margin-right: 5px;}
+.page.report .search-box .form input[type=submit]{background: #333; color: #fff; padding: 10px 25px; transition: all 0.2s ease-in-out;}
+.page.report .search-box .form input[type=submit]:hover{background: #ffcc66; color: #fff; border: 1px solid #ffcc66;}
+.page.report .title-page{margin-bottom: 20px;}
+.page.report .title-page h2:hover{color: #333;}
+.page.report .percentage{width: 70%;}
+
+.page .admin-container{margin-right: 120px;}
+.page .side-bar{width: 15%; padding: 30px 0; position: fixed; top: 50px; bottom: 0; border-right: 1px solid #ddd;}
+.page .side-bar .bg{}
+.page .side-bar .bg li{display: block; list-style: none; color: #fff; font-size: 15px;}
+.page .side-bar .bg li a{float: left; width: 100%; font-size:17px; color: #333; padding: 10px 20px;}
+.page .side-bar .bg li a:hover{padding-left: 30px; color: #ffcc66; }
+.page .side-bar .bg li a.active{padding-left: 30px; color: #ffcc66; text-decoration: line-through;}
+
+footer{box-shadow: 1px 1px 10px 1px #000; position: relative;}
+footer .footer-nav{background: #333;}
+footer .footer-nav .f-nav li{float: left; font-size: 14px; color: #fff; list-style: none; margin-right:30px;}
+footer .footer-nav .f-nav li:last-child{margin-right:0;}
+footer .footer-nav .f-nav ul li a{float: left; color: #fff; padding: 5px 0;}
+footer .footer-nav .f-nav ul li a:hover{color: #ffcc66}
+footer .footer-nav .f-nav ul li a.active{color: #ffcc66}
+footer .footer-nav .back-to-top{right: 10px; top: 4px;}
+footer .footer-nav .back-to-top a{color: #fff; font-size: 14px;}
+footer .footer-nav .back-to-top a:hover{color: #ffcc66;}
+footer .footer-link{background: #000; padding: 10px 0;}
+footer .footer-link{color: #fff;}
+footer .footer-link .title-footer{font-size: 20px; color: #fff; letter-spacing: 5px; font-weight: 700; line-height: 1;padding-bottom: 3px; border-bottom: 1px solid #fff;}
+footer .footer-link .footer-desc{font-size: 15px; color: #fff; margin-top: 3px;}
+footer .footer-link .footer-ico{float: left; width: 100%; margin: 3px 0;}
+footer .footer-link .footer-ico li{float: left; width: 22px; list-style: none; margin-right: 10px;}
+footer .footer-link .footer-ico li:last-child{margin-right: 0px;}
+footer .footer-link .footer-ico li a img:hover{opacity: 0.8;}
+footer .footer-link .phone-numb, .copyright{font-size: 12px;}
